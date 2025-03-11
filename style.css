@@ -1,0 +1,41 @@
+div{
+  height: 150px;
+  width: 150px;
+  background-color: #cd27d9;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 250px;
+  animation-name: cambio-color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambio-color {
+  0% {
+    background-color: #e5eb96; 
+    position: relative;
+    top:10px;
+    left: 1200px;
+  }
+  15% {
+     background-color: #f27798;
+  }
+  30% {
+     background-color: #79f277;
+     position: relative;
+    left:1000px;
+  }
+  50% {
+    background-color: #e477f2;
+    position: relative;
+    top:150px;
+  }
+  80% {
+    background-color: #e477f2;
+    position: relative;
+    right:150px;
+  }
+}
+
+body{Background-color: #d7f5f4}
